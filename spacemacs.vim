@@ -51,7 +51,7 @@ source ~/.intellimacs/spacemacs/projects.vim
 let g:WhichKeyDesc_Quit = "<leader>q    +quit"
 source ~/.intellimacs/spacemacs/quit.vim
 
-let g:WhichKeyDesc_RegistersRingsResume = "<leader>r    +registers/rings/resume"
+let g:WhichKeyDesc_RegistersRingsResume = "<leader>R    +registers/rings/resume"
 source ~/.intellimacs/spacemacs/registers-rings-resume.vim
 
 let g:WhichKeyDesc_SearchSymbol = "<leader>s    +search/symbol"

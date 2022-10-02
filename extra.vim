@@ -22,7 +22,7 @@ source ~/.intellimacs/extra/help-history.vim
 source ~/.intellimacs/extra/jump.vim
 source ~/.intellimacs/extra/leader.vim
 
-let g:WhichKeyDesc_Run = "<leader>R    +run"
+let g:WhichKeyDesc_Run = "<leader>r    +run"
 source ~/.intellimacs/extra/run.vim
 
 source ~/.intellimacs/extra/search.vim
