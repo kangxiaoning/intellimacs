@@ -5,8 +5,8 @@ vnoremap <leader>jc   :action GotoClass<CR>
 
 " Jump to element in current file
 let g:WhichKeyDesc_JumpJoinSplit_JumpToFileStructure = "<leader>je jump-to-file-structure"
-nnoremap <leader>je   :action FileStructurePopup<CR>
-vnoremap <leader>je   :action FileStructurePopup<CR>
+nnoremap <leader>ji   :action FileStructurePopup<CR>
+vnoremap <leader>ji   :action FileStructurePopup<CR>
 
 " Jump to symbol
 let g:WhichKeyDesc_JumpJoinSplit_JumpToSymbol = "<leader>js jump-to-symbol"
