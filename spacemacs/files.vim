@@ -52,8 +52,7 @@ vnoremap <leader>fs    :action SaveDocument<CR>
 " anymore. You can use <A-1> if you want to close the window or <Esc> if you
 " want to leave the window opened and focus on the code.
 let g:WhichKeyDesc_Files_FileTree = "<leader>ft file-tree"
-nnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
+map <leader>ft :NERDTreeToggle<CR>
 
 """ Yank/Copy Submenu ---------------------------------
 let g:WhichKeyDesc_Files_YankCopy = "<leader>fy +Yank/Copy"

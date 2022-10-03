@@ -22,3 +22,6 @@ vnoremap <leader>tr    <Esc>:set relativenumber!<CR>
 let g:WhichKeyDesc_Toggles_ShowWhitespace = "<leader>tw show-whitespace"
 nnoremap <leader>tw    :action EditorToggleShowWhitespaces<CR>
 vnoremap <leader>tw    :action EditorToggleShowWhitespaces<CR>
+
+" Toggle NERDTree
+map <leader>ft :NERDTreeToggle<CR>
