@@ -4,7 +4,7 @@ nnoremap <leader>cc    :action BuildProject<CR>
 vnoremap <leader>cc    :action BuildProject<CR>
 
 " Rebuild project
-let g:WhichKeyDesc_CompileComments_CompileDirty = "<leader>cr     rebuild-project"
+let g:WhichKeyDesc_CompileComments_BuildProject = "<leader>cr     rebuild-project"
 nnoremap <leader>cr    :action RebuildProject<CR>
 vnoremap <leader>cr    :action RebuildProject<CR>
 

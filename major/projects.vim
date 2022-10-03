@@ -1,7 +1,7 @@
 " Make project (build)
-let g:WhichKeyDesc_Major_Project_CompileProject = "<leader>mpb compile-project"
-nnoremap <leader>mpb    :action CompileDirty<CR>
-vnoremap <leader>mpb    :action CompileDirty<CR>
+let g:WhichKeyDesc_Major_Project_BuildProject = "<leader>mpb build-project"
+nnoremap <leader>mpb    :action BuildProject<CR>
+vnoremap <leader>mpb    :action BuildProject<CR>
 
 " Create project
 let g:WhichKeyDesc_Major_Project_CreateProject = "<leader>mpc create-project"

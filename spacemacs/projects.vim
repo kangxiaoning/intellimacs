@@ -20,9 +20,9 @@ nnoremap <leader>pr    :action RecentFiles<CR>
 vnoremap <leader>pr    :action RecentFiles<CR>
 
 " Make project
-let g:WhichKeyDesc_Projects_CompileProject = "<leader>pc compile-project"
-nnoremap <leader>pc    :action CompileDirty<CR>
-vnoremap <leader>pc    :action CompileDirty<CR>
+let g:WhichKeyDesc_Projects_BuildProject = "<leader>pc build-project"
+nnoremap <leader>pc    :action BuildProject<CR>
+vnoremap <leader>pc    :action BuildProject<CR>
 
 " Focus on project window.
 " Sadly when you are inside the project window this key binding does not work
