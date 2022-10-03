@@ -32,7 +32,7 @@ let g:WhichKeyDesc_Projects_Window  = "<leader>pD project-window"
 nnoremap <leader>pD    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>pD    :action ActivateProjectToolWindow<CR>
 let g:WhichKeyDesc_Projects_Tree  = "<leader>pt file-tree"
-map <leader>pt :NERDTreeToggle<CR>
+map <leader>pt :NERDTreeFocus<CR>
 
 " Find files
 let g:WhichKeyDesc_Projects_GotoFile = "<leader>pf goto-file"
