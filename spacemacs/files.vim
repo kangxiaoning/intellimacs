@@ -19,10 +19,19 @@ nnoremap <leader>feR    :source ~/.ideavimrc<CR>
 vnoremap <leader>feR    <Esc>:source ~/.ideavimrc<CR>
 """ ---------------------------------------------
 
-" Find files
-let g:WhichKeyDesc_Files_GotoFile = "<leader>ff goto-file"
-nnoremap <leader>ff    :action GotoFile<CR>
-vnoremap <leader>ff    :action GotoFile<CR>
+" Open files
+let g:WhichKeyDesc_Files_OpenFile = "<leader>ff open-file"
+nnoremap <leader>ff    :action OpenFile<CR>
+vnoremap <leader>ff    :action OpenFile<CR>
+
+" New files
+let g:WhichKeyDesc_Files_New_File = "<leader>fnf new-file"
+nnoremap <leader>fnf    :action NewFile<CR>
+vnoremap <leader>fnf    :action NewFile<CR>
+
+let g:WhichKeyDesc_Files_New_Dir = "<leader>fnd new-dir"
+nnoremap <leader>fnd    :action NewDir<CR>
+vnoremap <leader>fnd    :action NewDir<CR>
 
 " Rename file
 let g:WhichKeyDesc_Files_Rename = "<leader>fR rename"
