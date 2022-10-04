@@ -20,9 +20,6 @@ vnoremap <leader>feR    <Esc>:source ~/.ideavimrc<CR>
 """ ---------------------------------------------
 
 " Find files
-let g:WhichKeyDesc_Files_GotoFileAlt = "<leader>fF goto-file"
-nnoremap <leader>fF    :action GotoFile<CR>
-vnoremap <leader>fF    :action GotoFile<CR>
 let g:WhichKeyDesc_Files_GotoFile = "<leader>ff goto-file"
 nnoremap <leader>ff    :action GotoFile<CR>
 vnoremap <leader>ff    :action GotoFile<CR>
