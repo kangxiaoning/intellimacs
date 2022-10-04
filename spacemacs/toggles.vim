@@ -10,18 +10,15 @@ vnoremap <leader>tl    :action EditorToggleUseSoftWraps<CR>
 
 " Toggle line numbers
 let g:WhichKeyDesc_Toggles_LineNumbers = "<leader>tn line-numbers"
-nnoremap <leader>tn    :action EditorToggleShowLineNumbers<CR>
-vnoremap <leader>tn    :action EditorToggleShowLineNumbers<CR>
+nnoremap <leader>tn    :action EditorGutterToggleGlobalLineNumbers<CR>
+vnoremap <leader>tn    :action EditorGutterToggleGlobalLineNumbers<CR>
 
 " Toggle relative line numbers
 let g:WhichKeyDesc_Toggles_RelativeLineNumbers = "<leader>tr relative-line-numbers"
-nnoremap <leader>tr    :set relativenumber!<CR>
-vnoremap <leader>tr    <Esc>:set relativenumber!<CR>
+nnoremap <leader>tr    :set relativenumber<CR>
+vnoremap <leader>tr    <Esc>:set relativenumber<CR>
 
 " Toggle Show Whitespaces
 let g:WhichKeyDesc_Toggles_ShowWhitespace = "<leader>tw show-whitespace"
 nnoremap <leader>tw    :action EditorToggleShowWhitespaces<CR>
 vnoremap <leader>tw    :action EditorToggleShowWhitespaces<CR>
-
-" Toggle NERDTree
-map <leader>ft :NERDTreeToggle<CR>
