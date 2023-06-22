@@ -3,10 +3,10 @@ let g:WhichKeyDesc_Run_Anything = "<leader>ra run-anything"
 nnoremap <leader>ra    :action RunAnything<CR>
 vnoremap <leader>ra    :action RunAnything<CR>
 
-" Run class
-let g:WhichKeyDesc_Run_Class = "<leader>rc run-class"
-nnoremap <leader>rc    :action RunClass<CR>
-vnoremap <leader>rc    :action RunClass<CR>
+" Run cargo command
+let g:WhichKeyDesc_Run_CargoCommand = "<leader>rc run-cargo-command"
+nnoremap <leader>rc    :action Cargo.RunCargoCommand<CR>
+vnoremap <leader>rc    :action Cargo.RunCargoCommand<CR>
 
 " Kill (Stop application)
 let g:WhichKeyDesc_Run_Kill = "<leader>rk kill"

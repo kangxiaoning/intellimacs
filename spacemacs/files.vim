@@ -33,6 +33,10 @@ let g:WhichKeyDesc_Files_New_Dir = "<leader>fnd new-dir"
 nnoremap <leader>fnd    :action NewDir<CR>
 vnoremap <leader>fnd    :action NewDir<CR>
 
+let g:WhichKeyDesc_Files_New_ScratchFile = "<leader>fns new-scratch-file"
+nnoremap <leader>fns    :action NewScratchFile<CR>
+vnoremap <leader>fns    :action NewScratchFile<CR>
+
 " Rename file
 let g:WhichKeyDesc_Files_Rename = "<leader>fR rename"
 nnoremap <leader>fR    :action RenameFile<CR>
