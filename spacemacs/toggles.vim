@@ -32,8 +32,3 @@ vnoremap <leader>tb    :action EditorToggleShowBreadcrumbs<CR>
 let g:WhichKeyDesc_Toggles_ViewStatusBar = "<leader>ts view-status-bar"
 nnoremap <leader>ts    :action ViewStatusBar<CR>
 vnoremap <leader>ts    :action ViewStatusBar<CR>
-
-" Toggle read only attribute
-let g:WhichKeyDesc_Toggles_ReadOnlyAttribute = "<leader>tro read-only-file"
-nnoremap <leader>tro    :action ToggleReadOnlyAttribute<CR>
-vnoremap <leader>tro    :action ToggleReadOnlyAttribute<CR>

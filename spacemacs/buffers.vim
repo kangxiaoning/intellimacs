@@ -52,3 +52,8 @@ vnoremap <leader>bY    <Esc>:%y<CR>
 let g:WhichKeyDesc_Buffers_KillOtherBuffers = "<leader>b<C-d>    kill-other-buffers"
 nnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>
 vnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>
+
+" Toggle read only
+let g:WhichKeyDesc_Toggles_ReadOnlyAttribute = "<leader>bw Toggle read-only"
+nnoremap <leader>bw    :action ToggleReadOnlyAttribute<CR>
+vnoremap <leader>bw    :action ToggleReadOnlyAttribute<CR>
