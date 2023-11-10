@@ -26,7 +26,7 @@ nnoremap zr    :action ExpandAllRegions<CR>
 vnoremap zr    :action ExpandAllRegions<CR>
 
 " Jump to previously visited location
-nnoremap <C-i>    :action Forward<CR>
+nnoremap gf    :action Forward<CR>
 
 " Jump to lately visited location
 nnoremap gb    :action Back<CR>

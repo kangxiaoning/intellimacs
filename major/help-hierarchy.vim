@@ -29,6 +29,11 @@ nnoremap <leader>mhU      :action ShowUsages<CR>
 vnoremap <leader>mhU      :action ShowUsages<CR>
 
 " Find usages for symbol
-let g:WhichKeyDesc_Major_Help_FindUsages = "<leader>mhu find-usages"
-nnoremap <leader>mhu      :action FindUsages<CR>
-vnoremap <leader>mhu      :action FindUsages<CR>
+let g:WhichKeyDesc_Major_Help_FindUsages = "<leader>mgr find-usages"
+nnoremap <leader>mgr      :action FindUsages<CR>
+vnoremap <leader>mgr      :action FindUsages<CR>
+
+" Find usages for symbol
+let g:WhichKeyDesc_Major_Help_FindUsages = ",gr find-usages"
+nnoremap ,gr      :action FindUsages<CR>
+vnoremap ,gr      :action FindUsages<CR>
